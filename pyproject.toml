@@ -1,0 +1,17 @@
+[project]
+name = "khmer-handwritten-ocr"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Nhaaa4", email = "panhasovan51@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+khmer-handwritten-ocr = "khmer_handwritten_ocr:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
